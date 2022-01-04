@@ -138,7 +138,7 @@ export const TitleContainer = styled.div`
   }
 
   @media (max-width: 1000px) {
-    margin-top: 8.5rem;
+    margin-top: 8rem;
     padding: 0 auto;
 
     h1 {
@@ -147,8 +147,8 @@ export const TitleContainer = styled.div`
     }
 
     h3 {
-      font-size: 3rem;
-      width: 16rem;
+      font-size: 2.5rem;
+      width: 14rem;
     }
   }
 `;
@@ -253,6 +253,16 @@ export const TodoList = styled.ul`
 
     span {
       font-size: 1.5rem;
+    }
+    @media (max-width: 1000px) {
+      p {
+        font-weight: 500;
+        font-size: 1.5rem;
+      }
+
+      span {
+        font-size: 1.2rem;
+      }
     }
   }
 
