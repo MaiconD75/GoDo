@@ -1,5 +1,5 @@
 <h1 align="center">Go Do</h1>
-<p align="center">A simple to-do application to study redux</p>
+<p align="center">A responsive simple to-do application to study redux</p>
 
 <p align="center">
  <a href="#about">About</a> •
