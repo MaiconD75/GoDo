@@ -83,7 +83,7 @@ const Home: React.FC = () => {
           submitFunction={(e: ToDo): void => handleSubmit(e)}
         >
           <Input placeholder="Tarefa" name="title" />
-          <Input placeholder="Descrição" name="description" />
+          <Input placeholder="Descrição" name="descriptio" />
           <div>
             <button type="button" onClick={() => handleChangeModalState()}>
               Cancelar
